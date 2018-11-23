@@ -1,0 +1,161 @@
+﻿<html>
+
+<head>
+</head>
+
+<body>
+    <script type="text/javascript">
+        'use strict';
+
+        // #1
+        var myNumber = 1;
+        var mySrting = "Hello";
+        var myBool = false;
+        var myNull = null;
+
+        alert(typeof (myNumber));
+        alert(typeof (mySrting));
+        alert(typeof (myBool));
+        alert(typeof (myNull));
+
+        // #2
+        for (var i = 1; i <= 25; i++) {
+            document.write(i + "<br>");
+        }
+
+        var a = 1;
+        while (a <= 25) {
+            document.write(a + "<br>");
+            a++;
+        }
+
+        var a = 1;
+        do {
+            document.write(a + "<br>");
+            a++;
+        } while (a <= 25);
+
+        var t = prompt("Wath's your name?");
+
+        document.write("Hi, " + userName +"!");
+        document.write("<br>");
+
+        // #3
+        var day = prompt("Enter any number of 1 to 7")
+        switch (day) {
+            case "1":
+                document.write("Mo");
+                break;
+            case "2":
+                document.write("Tu");
+                break;
+            case "3":
+                document.write("We");
+                break;
+            case "4":
+                document.write("Th");
+                break;
+            case "5":
+                document.write("Fr");
+                break;
+            case "6":
+                document.write("Sa");
+                break;
+            case "7":
+                document.write("Su");
+                break;
+            default:
+                document.write("Whrong");
+        }
+
+        document.write("<br>");
+
+        // #5
+        var s = confirm("Do you somke?")
+        if (a) {
+            document.write("You do somke. It harms your health!");
+        }
+        else {
+            document.wr - ite("Congratulations!");
+        }
+
+        // #6
+        document.write("<br>");
+
+        const divider = 7;
+        for (var i = 1; i <= 10; i++) {
+            if ((i % divider) == 0) {
+                document.write(i + '<br>');
+            }
+        }
+
+        //  #7
+        var number = prompt("Enter your number")
+        var res = (number * number - 7 * number + 10) /
+            (number * number - 8 * number + 12);
+        document.write(res);
+
+        document.write("<br>");
+
+        // #8
+        var card = prompt("Enter the number of the suit 'M'")
+        switch (card) {
+            case "1":
+                document.write("Peaks");
+                break;
+            case "2":
+                document.write("Clubs");
+                break;
+            case "3":
+                document.write("Diamonds");
+                break;
+            case "4":
+                document.write("Hearts");
+                break;
+            default:
+                document.write("Wrong");
+        }
+
+        alert(card);
+        document.write("<br>");
+
+        // #9
+
+        // Valdiation function
+        var isNumber = function (num) {
+            return !isNaN(parseFloat(num)) && isFinite(num);
+        }
+
+        var x = prompt("Enter х")
+        var y = prompt("Enter y")
+
+        var action = prompt("Arithmetic operations: addition - 1, " +
+            "subtraction - 2, multiplication - 3, division - 4")
+
+        // Validation
+        if (!(isNumber(x) && isNumber(y) == null && isNumber(action)))
+            console.log("Your input isn't number!");
+
+        x = Number(x);
+        y = Number(y);
+
+        switch (action) {
+            case "1":
+                document.write(x + y);
+                break;
+            case "2":
+                document.write(x - y);
+                break;
+            case "3":
+                document.write(x * y);
+                break;
+            case "4":
+                document.write(x / y);
+                break;
+            default:
+                document.write("Wrong data");
+        }
+    </script>
+</body>
+
+</html>

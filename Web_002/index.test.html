@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Web7.Test</title>
+
+    <!--Include the Mocha style, for display results.-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    <!--Include the library Mocha -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+    <!--Settings of Mocha for next BDD-tests-->
+    <script>
+        mocha.setup('bdd');
+    </script>
+
+    <!--Include chai lib -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+    <!--Select 'assert' in a global area-->
+    <script>
+        var assert = chai.assert;
+    </script>
+    
+</head>
+
+<body>
+    <!--Specification-->
+    <script>
+        import * as web7 from 'js/scripts.js';
+
+        // My Code ...
+
+    </script>
+
+    <!--Include tests file-->
+    <script src="tests/test.js"></script>
+
+    <!--In the element will be stored a results of the tests -->
+    <div id="mocha"></div>
+
+    <!--Run tests-->
+    <script>
+        mocha.run();
+    </script>
+</html>
