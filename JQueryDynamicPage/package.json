@@ -1,0 +1,15 @@
+{
+  "name": "jquery-dynamic-page",
+  "version": "1.0.0",
+  "description": "The example of the dynamic page based on the node.js",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vadim Nikiforov",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  }
+}

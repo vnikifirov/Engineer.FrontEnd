@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <title>Dynamic Page</title>
+</head>
+
+<body>
+    <section id="content-body">
+        <h1>JQuery Ajax Tutorial</h1>
+
+        <h2>Coffee Orders</h2>
+        <!-- The blank for a list of orders -->
+        <ul id="orders"></ul>
+
+        <!-- A form for adding a new oreder to the list -->
+        <form id="order-form" action="post">
+            <!-- Input for an user name  -->
+            <div id="user-name">
+                <label for="user-name">Name:</label>
+                <input type="tel" name="user-name" placeholder="Jonh Ingham">
+            </div>
+
+            <!-- Input for an user order -->
+            <div id="cofee-type">
+                <label for="cofee-type">Drink:</label>
+                <input type="tel" name="cofee-type" id="coffe-type" placeholder="Americano">
+            </div>
+
+            <!-- Add a order to the order list -->
+            <button type="submit">Add Order</button>
+        </form>
+    </section>
+
+    <script src="./js/main.js" type="text/javascript"></script>
+</body>
+
+</html>

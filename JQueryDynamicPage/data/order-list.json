@@ -1,0 +1,24 @@
+[{
+        "id": 1,
+        "name": "John",
+        "drink": "Americano"
+    },
+
+    {
+        "id": 2,
+        "name": "Mark",
+        "drink": "Tea"
+    },
+
+    {
+        "id": 3,
+        "name": "Vika",
+        "drink": "Green Tea"
+    },
+
+    {
+        "id": 4,
+        "name": "Laura",
+        "drink": "Vanilla Macchiato"
+    }
+]
