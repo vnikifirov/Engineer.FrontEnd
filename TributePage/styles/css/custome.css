@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+html,
+body {
+  background: #ffeead;
+}
+body > .row {
+  margin: 0;
+}
+.card-body {
+  background-color: #fff;
+}
+.row {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.row > .header {
+  height: 50px;
+  width: 100%;
+}
+.row > .header nav.navbar {
+  background-color: #024a6b;
+  padding: 0;
+}
+.row > .header nav.navbar a.brand-link {
+  color: #eaeaea;
+  margin-left: 10px;
+}
+.row > .header nav.navbar a.brand-link img.brand-logo {
+  height: 30px;
+  width: 30px;
+}
+.row div.img-avatar > img {
+  width: 150px;
+}
+.footer {
+  width: 100%;
+}
+.footer > footer {
+  background-color: #024a6b;
+  padding: 10px;
+}
+.footer > footer div.text-white {
+  color: #eaeaea;
+}
+@media (max-width: 1000px) {
+  .row div.img-avatar > img {
+    width: 125px;
+  }
+}
+@media (max-width: 770px) {
+  .row .col-md-2 div.img-avatar > img {
+    display: block;
+    width: 180px;
+    margin: 5px auto ;
+  }
+  .row .col-md-10 div.card-body {
+    padding: 10px;
+  }
+}

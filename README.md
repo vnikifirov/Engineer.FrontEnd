@@ -14,8 +14,9 @@
 
 6. [Image Resizing Script - Client B2B ARORA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Client.B2BARORA.ImageResize)
 
-7. [Delivery Time Select DropDown Menu - Client B2B ARORA](Client.B2B.ARORA.DeliveryTimeSelect)
+7. [Delivery Time Select DropDown Menu - Client B2B ARORA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Client.B2B.ARORA.DeliveryTimeSelect)
 
+8. [Tribute Page - FreeCodeCamp](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/TributePage)
 
 # Note
 
