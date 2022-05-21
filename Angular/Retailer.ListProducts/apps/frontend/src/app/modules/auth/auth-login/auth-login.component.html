@@ -1,0 +1,49 @@
+<h1 nz-typography>Вход</h1>
+
+<nz-alert *ngIf='showError'
+  nzType="error"
+  nzCloseable
+  nzMessage="Внимание"
+  nzDescription="Не верный логин или пароль."
+></nz-alert>
+<form
+  nz-form
+  [formGroup]="formGroup"
+  class="login-form"
+  (ngSubmit)="handleSubmitForm()"
+>
+  <nz-form-item>
+    <nz-form-control nzErrorTip="Поле обязательно">
+      <nz-input-group nzPrefixIcon="user" nzSize="large">
+        <input
+          nzSize="large"
+          type="text"
+          nz-input
+          formControlName="email"
+          placeholder="Username"
+        />
+      </nz-input-group>
+    </nz-form-control>
+  </nz-form-item>
+  <nz-form-item>
+    <nz-form-control nzErrorTip="Поле обязательно">
+      <nz-input-group nzPrefixIcon="lock" nzSize="large">
+        <input
+          type="password"
+          nz-input
+          formControlName="password"
+          placeholder="Password"
+        />
+      </nz-input-group>
+    </nz-form-control>
+  </nz-form-item>
+  <button
+    nzSize="large"
+    nz-button
+    class="login-form-button login-form-margin"
+    [nzType]="'primary'"
+    [nzLoading]="isButtonLoading"
+  >
+    Войти
+  </button>
+</form>

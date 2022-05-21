@@ -1,0 +1,60 @@
+<form nz-form nzLayout="vertical" [formGroup]="formGroup">
+  <nz-form-item>
+    <nz-form-label>Название</nz-form-label>
+    <nz-form-control [nzErrorTip]="getFieldError('name')">
+      <input nz-input formControlName="name" />
+    </nz-form-control>
+  </nz-form-item>
+  <div nz-row [nzGutter]="16">
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label>Цена</nz-form-label>
+        <nz-form-control [nzErrorTip]="getFieldError('price')">
+          <nz-input-number
+            formControlName="price"
+            [nzMin]="1"
+            [nzFormatter]="formatterDollar"
+            [nzParser]="parserDollar"
+          ></nz-input-number>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+    <div nz-col nzSpan="12">
+      <nz-form-item>
+        <nz-form-label>Срок годности</nz-form-label>
+        <nz-form-control [nzErrorTip]="getFieldError('expirationDate')">
+          <nz-date-picker
+            formControlName="expirationDate"
+            [nzDisabledDate]="disabledDate"
+            [nzShowToday]="false"
+          ></nz-date-picker>
+        </nz-form-control>
+      </nz-form-item>
+    </div>
+  </div>
+
+  <nz-form-item>
+    <nz-form-label>Категория</nz-form-label>
+    <nz-form-control [nzErrorTip]="getFieldError('categoryId')">
+      <nz-select formControlName="categoryId" nzAllowClear>
+        <nz-option
+          *ngFor="let option of categoryList$ | async"
+          [nzValue]="option.id"
+          [nzLabel]="option.name"
+        ></nz-option>
+      </nz-select>
+    </nz-form-control>
+  </nz-form-item>
+</form>
+
+<div *nzModalFooter>
+  <button nz-button nzType="default" (click)="handleClose()">Отмена</button>
+  <button
+    nz-button
+    nzType="primary"
+    (click)="handleSubmitForm()"
+    [nzLoading]="isButtonLoading"
+  >
+    Сохранить
+  </button>
+</div>

@@ -1,0 +1,28 @@
+<nz-table #basicTable [nzData]='listOfData' [nzLoading]='isDataLoading'>
+  <thead>
+  <tr>
+    <th>Id</th>
+    <th>Название</th>
+    <th>Цена</th>
+    <th>Срок годности</th>
+    <th>Категория</th>
+    <th nzWidth='120px'>
+      <a (click)='handleAddItem()'>+ Добавить</a>
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor='let data of basicTable.data'>
+    <td>{{ data.id }}</td>
+    <td>{{ data.name }}</td>
+    <td>{{ data.price | currency }}</td>
+    <td>{{ data.expirationDate | date:'dd.MM.yyyy' }}</td>
+    <td>{{ data.category?.name }}</td>
+    <td>
+      <a (click)='handleEditItem(data.id)'>Edit</a>
+      &nbsp;
+      <a (click)='handleShowDeleteConfirm(data.id)'>Delete</a>
+    </td>
+  </tr>
+  </tbody>
+</nz-table>

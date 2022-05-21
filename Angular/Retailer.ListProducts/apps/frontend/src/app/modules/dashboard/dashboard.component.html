@@ -1,0 +1,43 @@
+<nz-layout class="layout">
+  <nz-sider nzCollapsible nzBreakpoint="lg" [nzCollapsedWidth]="0">
+    <div class="logo"></div>
+    <ul nz-menu nzTheme="dark" nzMode="inline">
+      <li nz-menu-item>
+        <a
+          [routerLink]="['/', 'dashboard']"
+          routerLinkActive="active"
+          [routerLinkActiveOptions]="{ exact: true }"
+        >
+          <i nz-icon nzType="user"></i>
+          <span>Список товаров</span>
+        </a>
+      </li>
+      <li nz-menu-item>
+        <a
+          [routerLink]="['/', 'dashboard', 'categories']"
+          routerLinkActive="active"
+        >
+          <i nz-icon nzType="video-camera"></i>
+          <span>Категории</span>
+        </a>
+      </li>
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <nz-header>
+      <div>
+        {{ (user$ | async)?.email }}
+
+        <button (click)="handleShowConfirm()">
+          <i nz-icon nzType="export" nzTheme="outline"></i>
+        </button>
+      </div>
+    </nz-header>
+    <nz-content>
+      <div class="inner-content">
+        <router-outlet></router-outlet>
+      </div>
+    </nz-content>
+    <nz-footer>Ant Design ©2020 Implement By Angular</nz-footer>
+  </nz-layout>
+</nz-layout>
