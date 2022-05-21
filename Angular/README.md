@@ -2,7 +2,7 @@
 
 # Resources:
 
-1. [Middle/Senior Angular Dev - Velvetech, USA](https://github.com/vnikifirov/Engineer.FrontEnd/Angular/tree/master/Retailer.ListProducts)
+1. [Middle/Senior Angular Dev - Velvetech, USA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Angular/Retailer.ListProducts)
 
 # Note
 
