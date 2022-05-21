@@ -2,13 +2,13 @@
 
 # Resources:
 
-1. [Intern/Junior CSS - KIU](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/TestPoint_001)
+1. [Intern/Junior CSS - KIU](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JavaScript/TestPoint_001)
 
-2. [Middle/Senior JavaScript (Loops, Vars, IO) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/Web_001)
+2. [Middle/Senior JavaScript (Loops, Vars, IO) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JavaScript/Web_001)
 
-3. [Middle/Senior JavaScript (DOM, Aggregate functions and IO) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/Web_002)
+3. [Middle/Senior JavaScript (DOM, Aggregate functions and IO) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JavaScript/Web_002)
 
-4. [Middle/Senior JavaScript (Images, Links, Imputes, Windows) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/Web_003)
+4. [Middle/Senior JavaScript (Images, Links, Imputes, Windows) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JavaScript/Web_003)
 
 # Note
 

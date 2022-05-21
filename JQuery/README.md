@@ -2,9 +2,9 @@
 
 # Resources:
 
-1. [Middle/Senior Dynamic DropdownMenu](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/DropdownMenu)
+1. [Middle/Senior Dynamic DropdownMenu](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JQuery/DropdownMenu)
 
-2. [Middle/Senior DynamicPage](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/DynamicPage)
+2. [Middle/Senior DynamicPage](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JQuery/DynamicPage)
 
 # Note
 
