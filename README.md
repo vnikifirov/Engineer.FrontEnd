@@ -12,7 +12,7 @@
 
 5. [Interview questions for Front End position](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Interview.Questions)
 
-6. [Image Resizing Script - Client B2B ARORA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Client.B2B.ARORA.ImageResize)
+6. [Image Resizing Script - Client B2B ARORA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Client.B2BARORA.ImageResize)
 
 7. [Delivery Time Select DropDown Menu - Client B2B ARORA](Client.B2B.ARORA.DeliveryTimeSelect)
 
