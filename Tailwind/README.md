@@ -1,8 +1,8 @@
-# Angular
+# Tailwind - Framework or library
 
 # Resources:
 
-1. [Middle/Senior Angular Dev - Velvetech, USA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Tailwind/Example.HelloWorld)
+1. [Hello World - Tailwind](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Tailwind/HelloWorld)
 
 # Note
 

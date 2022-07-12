@@ -10,6 +10,8 @@
 
 4. [Middle/Senior JavaScript (Images, Links, Imputes, Windows) - KIU Exercises](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/JavaScript/Web_003)
 
+5. [Middle/Senior JavaScript Interview question - Closure](https://github.com/vnikifirov/Engineer.FrontEnd/JavaScript/tree/master/Closure)
+
 # Note
 
 * If you like this repo and find it useful, please consider ★ starring it (on top right of the page) :)

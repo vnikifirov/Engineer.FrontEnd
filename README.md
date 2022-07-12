@@ -18,7 +18,7 @@
 
 8. [Delivery Time Select DropDown Menu - Client B2B ARORA](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Client.B2B.ARORA.DeliveryTimeSelect)
 
-9. [Tribute Page - FreeCodeCamp](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/TributePage)
+9. [HTML & CSS projects](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/HTML_&_CSS)
 
 10. [Billboard.WebGL - Billboard WebGL](https://github.com/vnikifirov/Engineer.FrontEnd/tree/master/Billboard.WebGL)
 
